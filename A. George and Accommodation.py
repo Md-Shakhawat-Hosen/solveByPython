@@ -1,0 +1,8 @@
+n = int(input())
+c = 0
+for i in range(n):
+    p,q = map(int,input().split())
+    if q > p+1:
+        c = c + 1
+
+print(c)
